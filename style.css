@@ -1,0 +1,10 @@
+html {
+  /* Prevents padding from adding extra width/height to the page and the appearance of scrollbars */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* vh stands for viewport height, which is the full height of the entire window you're in. With this setting we want to always stretch our background to the full height of the screen.*/
+  min-height: 100vh;
+}
